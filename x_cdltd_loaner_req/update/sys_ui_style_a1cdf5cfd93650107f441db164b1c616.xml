@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>u_choice_4</element>
+        <name>x_cdltd_loaner_req_loaner_request</name>
+        <style> https://evantage.gilmoreglobal.com/#/user/registration</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 16:54:15</sys_created_on>
+        <sys_id>a1cdf5cfd93650107f441db164b1c616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loaner_req_loaner_request</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">fcc46572d97e10107f441db164b1c6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">fcc46572d97e10107f441db164b1c6e3</sys_scope>
+        <sys_update_name>sys_ui_style_a1cdf5cfd93650107f441db164b1c616</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 16:54:15</sys_updated_on>
+        <value>computer</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1cdf5cfd93650107f441db164b1c616"/>
+</record_update>
