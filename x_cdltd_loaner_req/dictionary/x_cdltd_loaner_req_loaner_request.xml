@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_req_loaner_request" type="collection">
+    <element extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_req_loaner_request" sizeclass="2" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Depot" max_length="40" name="depot" type="string">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element label="Overdue Count" max_length="40" name="overdue_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Overdue reminder" max_length="40" name="overdue_reminder" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Pick Up Reminder" max_length="40" name="pick_up_reminder" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Return reminder" max_length="40" name="return_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Mobile Phone" label="Item type" max_length="40" name="u_choice_4" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
